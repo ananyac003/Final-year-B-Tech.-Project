@@ -7,7 +7,7 @@ mean = 0.553460447
 standev = 0.4362381282
 
 k = [1, 2, 3]
-# threshold[]
+
 threshold_L = mean + k[0] * standev * (1 - 1 / (1 + math.pow(standev, 2)))
 threshold_M = mean + k[1] * standev * (1 - 1 / (1 + math.pow(standev, 2)))
 threshold_H = mean + k[2] * standev * (1 - 1 / (1 + math.pow(standev, 2)))
