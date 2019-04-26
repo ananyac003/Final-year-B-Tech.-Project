@@ -3,7 +3,7 @@
 import csv
 
 # To read from dataset file (.csv)
-with open('dataset_YMIPS_copy.csv', 'r') as csv_file:
+with open('dataset_YMIPS.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='\t')
 
 # New file for writing unique nodes
@@ -22,7 +22,7 @@ with open('YMIPS_NodeSet.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='\t')
 
 # Opening data set file
-    with open('dataset_YMIPS_copy.csv', 'r') as csv_file2:
+    with open('dataset_YMIPS.csv', 'r') as csv_file2:
         csv_reader2 = csv.reader(csv_file2, delimiter='\t')
 
 # To write nodes, its surrounding nodes and its degree
