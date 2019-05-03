@@ -60,6 +60,7 @@ with open('YMIPS_NodeSet_2.csv', 'r') as csv_file:
 
                 total = level_1 + level_2
                 total = list(dict.fromkeys(total))
+                total.append(len(level_2))
                 csv_writer.writerow(total)
 
 # to calculate node-weight
