@@ -1,0 +1,98 @@
+Threshold:
+
+    Low :   total: 2023
+
+            top 100 :
+            top 200 :
+            top 300 :
+            top 400 :
+            top 500 :
+            top 600 :
+            top 20% : 180
+
+            True_Pos : 180
+            False_Pos : 219
+            True_Neg : 1144
+            False_Neg : 371
+            Total_essential_Proteins : 405
+            Total_non-essential_Proteins : 1618
+            Sensitivity : 0.327
+            Specificity : 0.839
+            Positive_predictive_value : 0.451
+            Negative_predictive_value : 0.755
+            F_measure : 0.379
+            Accuracy : 0.654
+
+    Medium :  total: 1594
+
+            top 100:
+            top 200:
+            top 300:
+            top 400:
+            top 500:
+            top 600:
+            top 20%: 135
+
+            True_Pos : 135
+            False_Pos : 179
+            True_Neg : 851
+            False_Neg : 346
+            Total_essential_Proteins : 319
+            Total_non-essential_Proteins : 1275
+            Sensitivity : 0.281
+            Specificity : 0.826
+            Positive_predictive_value : 0.43
+            Negative_predictive_value : 0.711
+            F_measure : 0.34
+            Accuracy : 0.619
+
+    High:   total: 927
+
+            top 100:
+            top 200:
+            top 300:
+            top 400:
+            top 500:
+            top 600:
+            top 20%:
+
+            True_Pos : 75
+            False_Pos : 106
+            True_Neg : 456
+            False_Neg : 267
+            Total_essential_Proteins : 185
+            Total_non-essential_Proteins : 742
+            Sensitivity : 0.219
+            Specificity : 0.811
+    **        Positive_predictive_value (Precision[top 20%]) : 0.414
+            Negative_predictive_value : 0.631
+    **        F_measure : 0.286
+            Accuracy : 0.573
+    **        Recall[top 20%] : 0.405  ## recall = true_pos / Total_essential_proteins
+
+      LBCC
+
+      high: total: 927
+
+            top 100: 74
+            top 200: 138
+            top 300: 180
+            top 400: 218
+            top 500: 254
+            top 600: 276
+            top 20%: 131
+
+      True_Pos : 131
+      False_Pos : 52
+      True_Neg : 510
+      False_Neg : 211
+      Total_essential_Proteins : 185
+      Total_non-essential_Proteins : 742
+      Sensitivity : 0.383
+      Specificity : 0.907
+      Positive_predictive_value (Precision[top 20%]) : 0.716
+      Negative_predictive_value : 0.707
+      F_measure : 0.499
+      Accuracy : 0.691
+    **        Recall[top 20%] : 0.708  ## recall = true_pos / Total_essential_proteins
+
